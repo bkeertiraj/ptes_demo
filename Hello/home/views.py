@@ -22,4 +22,7 @@ def services(request):
 def contact(request):
     return render(request, 'contact.html')
     #return HttpResponse("this is a contact page")
+
+def clogin(request):
+    return render(request, 'clogin.html')
     
